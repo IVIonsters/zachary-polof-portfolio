@@ -31,6 +31,7 @@ h1 {
 
 ul {
     color: #daefb3;
+    
 }
 
 /* Main Body Styliing */
@@ -41,3 +42,27 @@ body {
     background-color: #a9d2d5;
 }
 
+/* Footer */
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    background-color: #808d8e;
+    color: #daefb3;
+    
+}
+
+/* Responsive Media Query */
+
+@media screen and (max-width: 768px) {
+    header {
+        flex-direction: column;
+    }
+
+    main {
+        max-width: 1200px;
+    }
+}
+    

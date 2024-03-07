@@ -47,6 +47,13 @@ p {
     font-family: 'Courier New', Courier, monospace;
 }
 
+.image {
+    width: 100%;
+    min-height: 100px;
+    max-height: 250px;
+}
+
+
 /* Footer */
 
 footer {

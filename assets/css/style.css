@@ -22,17 +22,22 @@ header {
     padding: 10px;
     background-color: #808d8e;
     font-family: 'Courier New', Courier, monospace;
-
 }
 
 h1 {
     color: #daefb3;
-
+    text-shadow: 2px 2px 5px black;
 }
 
 ul {
     color: #daefb3;
     
+}
+
+li {
+    display: inline;
+    font-size: 20px;
+    text-shadow: 2px 2px 5px black;
 }
 
 /* Main Body Styliing */
@@ -64,6 +69,7 @@ footer {
     background-color: #808d8e;
     color: #daefb3;
     font-family: 'Courier New', Courier, monospace;
+    text-shadow: 2px 2px 2px black;
     
 }
 

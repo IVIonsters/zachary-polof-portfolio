@@ -24,7 +24,7 @@
 * **Title:** Page title added to show company brand and help identify site purpose with minimal engagment necessary.
 * **HTML Structure:** Refactored with class specific semantic elements to improve overall identification and readability.
 * **Accessibility:** Added Alt attributes to image tags for accessibilty and description.
-* **Header Tags** elements have been restructure to follow sequential order.
+* **Header Tags** 
 * **Comments:** HTML and CSS sheets have been modified with comments to differentiate sections, styles, and readability.
 
 ## Usage

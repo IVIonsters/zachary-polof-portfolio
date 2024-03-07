@@ -1,7 +1,43 @@
-/* Elements-applied-to-entire-page */
+/* Coding Colors used
+#808D8E Battleship grey
+#766C77F Chinese Violet
+#daefb3 tea green
+#A34A5C3 Cool Gray
+ #A9D2D5 Light Blue */
+
+ /* Elements-applied-to-entire-page */
 
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
+
+/* Header  */
+
+header {
+    display: flex;
+    justify-content: space-between ;
+    align-items: center;
+    padding: 10px;
+    background-color: #808d8e;
+
+}
+
+h1 {
+    color: #daefb3;
+
+}
+
+ul {
+    color: #daefb3;
+}
+
+/* Main Body Styliing */
+body {
+    display: flex;
+    flex-direction: column;
+    line-height: 1.3;
+    background-color: #a9d2d5;
+}
+

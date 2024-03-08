@@ -45,6 +45,10 @@ aside {
     border: 1px solid black;
 }
 
+.aboutme {
+    max-width: 400px;
+
+}
 /* Main Body Styliing */
 
 body {

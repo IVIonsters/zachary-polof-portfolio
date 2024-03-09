@@ -46,8 +46,13 @@ aside {
 }
 
 .aboutme {
+    min-width: 300px;
     max-width: 400px;
 
+}
+
+.boldsection {
+    font-weight: bold;
 }
 /* Main Body Styliing */
 

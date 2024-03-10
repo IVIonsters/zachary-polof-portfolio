@@ -1,13 +1,51 @@
  /* Elements-applied-to-entire-page */
-* {
+*, *::after, *::before {
     margin: 0;
+    padding: 0;
     height: 100%;
-   
+    box-sizing: inherit;
+}
+/* Body */
+body {
+    font-family:'Courier New', Courier, monospace
+}
+/* header */
+header {
+    padding: 10px;
+    height: 40px;
+    background-color: #fff;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
 }
 
-body {
-    width: 100%;
+header nav {
+    margin: 10px 0;
 }
+
+header nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+}
+
+header nav ul li a{
+    padding: 10px;
+    letter-spacing: 2px;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    
+}
+
+h1 {
+    color: black;
+    font-weight: bold;
+}
+
+
 /* Hero Image Styling */
 .hero-image {
     background-image: url(https://images.unsplash.com/photo-1534166755186-fa2d8a5b2b03?q=80&w=1494&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
@@ -16,7 +54,6 @@ body {
     background-repeat: no-repeat;
     background-size: contain;
     position: relative;
-    
 }
 
 .hero-text {
@@ -27,17 +64,17 @@ body {
     color: white;
     height: auto;
     margin-top: 200px;
+    margin: 10px;
 }
 
 h2 {
     font-size: 3.5em;
-    font-family: 'Courier New', Courier, monospace;
+    
 }
 
 a {
     margin-top: 20px;
     font-size: 1.5em;
-    font-family: 'Courier New', Courier, monospace;
 }
 
 /* Button styling on hero image */
@@ -60,6 +97,7 @@ a {
     transition: background-color 0.3s ease-in, color 0.3s ease-in;
 }
 
+/*  Media Queries  */
 @media only screen and (max-width: 920px) {
     .hero-text
      {

@@ -1,11 +1,17 @@
  /* Elements-applied-to-entire-page */
+
 * {
     margin: 0;
     padding: 0;
     height: 100%;
-    box-sizing: inherit;
 }
 
+/* HTML Styling */
+
+html {
+    box-sizing: border-box;
+    height: 100%;
+}
 
 /* Body */
 body {
@@ -255,6 +261,29 @@ footer {
    
 
 /*  Media Queries  */
+
+/* Screen size smaller than 1350px */
+@media only screen and (max-width: 1355px) {
+    html {
+        font-size: 80%;
+    }
+}
+    
+/* Screen size smaller than 1200px */
+@media only screen and (max-width: 1200px) {
+    .hero-text
+     {
+        margin-top: 100px;
+        top: 35px;
+        font-size: 1em;
+    }
+    .container img , .horiseon img{
+        width: auto;
+        height: auto;
+       
+    }
+  
+}
 /* Screen size smaller than 800px */
 @media only screen and (max-width: 800px) {
     .hero-text
@@ -263,25 +292,40 @@ footer {
         top: 35px;
         font-size: 1em;
     }
-    .container img , .horiseon img{
-        width: 350px;
-        height: auto;
+    .container img { 
+        width: auto;
+        height: 25%;
        
+    }
+    .horiseon img {
+        width: auto;
+        height: 75%;
+    }
+    html {
+        font-size: 70%;
     }
   
 }
 
 /* Screen size smaler than 500px */
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 550px) {
     .hero-text
     {
        margin-top: 100px;
        top: 90px;
        font-size: 1em;
    }
-    .container img ,.horiseon img{
-         width: 100%;
-         height: auto;
+    .container img {
+         width: auto;
+         height: 15%;
+    }
+    .horiseon img {
+        width: auto;
+        height: 50%;
+    }
+    
+    html {
+        font-size: 60%;
     }
  
 }

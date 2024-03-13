@@ -11,7 +11,10 @@ body {
     font-family:'Courier New', Courier, monospace
 }
 
-
+/* HTML Page structure */
+html {
+    scroll-behavior: smooth;
+}
 /* header */
 header {
     padding: 10px;
@@ -80,12 +83,14 @@ h1 {
 /* Hero Image Styling */
 .hero-image {
     background-image: url(https://images.unsplash.com/photo-1534166755186-fa2d8a5b2b03?q=80&w=1494&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
-    height: 50%;
+    height: 40%;
+    max-height: 40%;
     width: 100%;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
+    border: 2px solid black;
     
 }
 
@@ -133,10 +138,9 @@ a {
 
 /* About Me */
 .abouttext {
-    line-height: 1.4;
+    line-height: 1.5em;
     width: 80%;
     font-size: 1.25em;
-    font-style: italic;
     margin: 0 auto;
     text-align: left;  
 }
@@ -155,7 +159,8 @@ a {
 
 p {
     max-width: 990px;
-    font-size: .9em;
+    font-size: 1em;
+    letter-spacing: .2px;
 }
 
 .avatar {
@@ -168,6 +173,39 @@ p {
     
 }
 
+/* Portfolio Section */
+.portfolioheader {
+    font-size: 2.5em;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 10px;
+    margin: -500px auto;
+}
+
+.portfolio-container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+/* .portfoliogrid {
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    grid-template-rows: repeat(8, 5vw);
+    gap: .35em;
+} */
+
+.horiseon {
+    /* grid-column: 1 / 2;
+    grid-row: 1 / 2; */
+    text-align: center;
+    margin: -1000px auto;
+    height: 30%;
+    width: auto;    
+}
+
+.horiseon img {
+    border: 2px solid black;
+}
 
 /*  Media Queries  */
 @media only screen and (max-width: 920px) {

@@ -37,7 +37,7 @@
       <section class="aboutbody">
           <h3 id="aboutme" class="aboutheader">About Me</h3>
       </section>
-      <img src="/assets/images/1.jpg" alt="image of designer Zachary Polof" class="avatar">
+      <img src="./assets/images/1.jpg" alt="image of designer Zachary Polof" class="avatar">
       <section class="aboutbody">
           <p><strong>Hello! My Name is Zachary Polof and I am an entry level full stack developer!</strong><br><br>
             I currently work full time in the automotive industry.
@@ -55,9 +55,10 @@
   <!-- Portfolio Section -->
     <section class="portfolio">
           <h4 id="portfolio" class="portfolioheader">Portfolio</h4>
-          <section class="portfolio-container" class="portfoliogrid">
+          <section class="portfolio-container">
             <div class="horiseon"><img src="./assets/images/finalpng2.png" alt="horiseon media image team members meeting around table"></div>
-        </section>
+          </section>
+    </section>
         <div class="container">
           <img src="https://images.unsplash.com/photo-1710185220451-53c7a9b00a78?w=400&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHw3N3x8fGVufDB8fHx8fA%3D%3D">
           <img src="https://images.unsplash.com/photo-1707343843437-caacff5cfa74?w=400&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDF8MHxlZGl0b3JpYWwtZmVlZHw2NXx8fGVufDB8fHx8fA%3D%3D">
@@ -69,3 +70,73 @@
         </footer>
   </body>
 </html>
+
+
+
+
+<!-- /*  Media Queries  */
+
+/* Screen size smaller than 1350px */
+@media only screen and (max-width: 1355px) {
+    html {
+        font-size: 80%;
+    }
+}
+    
+/* Screen size smaller than 1200px */
+@media only screen and (max-width: 1200px) {
+    .hero-text
+{
+        margin-top: 100px;
+        top: 35px;
+        font-size: 1em;
+    }
+    .container img , .horiseon img{
+        width: auto;
+        height: auto;
+    }
+
+}
+/* Screen size smaller than 800px */
+@media only screen and (max-width: 800px) {
+    .hero-text
+{
+        margin-top: 100px;
+        top: 35px;
+        font-size: 1em;
+    }
+    .container img { 
+        width: auto;
+        height: 25%;
+    }
+    .horiseon img {
+        width: auto;
+        height: 75%;
+    }
+    html {
+        font-size: 70%;
+    }
+
+}
+
+/* Screen size smaler than 500px */
+@media only screen and (max-width: 550px) {
+    .hero-text
+    {
+    margin-top: 100px;
+    top: 90px;
+    font-size: 1em;
+}
+    .container img {
+        width: auto;
+        height: 15%;
+    }
+    .horiseon img {
+        width: auto;
+        height: 50%;
+    }
+    
+    html {
+        font-size: 60%;
+    }
+ -->

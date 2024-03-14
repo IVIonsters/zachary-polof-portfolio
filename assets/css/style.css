@@ -29,6 +29,7 @@ header {
     height: 50px;
     background-color: rgba(222,227,231,255);
     display: flex;
+    flex-direction: row;
     justify-content: space-between;
     text-transform: uppercase;
 }
@@ -39,11 +40,7 @@ header nav {
 
 header nav ul {
     display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    align-items: center;
     list-style: none;
-    text-transform: uppercase;
 }
 
 
@@ -146,7 +143,7 @@ a {
     width: 80%;
     font-size: 1.25em;
     margin: 10px auto;
-    text-align: center;  
+    text-align: left;  
 }
 .aboutheader {
     font-size: 2em;
@@ -158,23 +155,23 @@ a {
 
 .aboutbody {
     display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
     height: 10%;
 }
 
 p {
     max-width: 990px;
     font-size: 1em;
-    letter-spacing: .2px;
-    
+    letter-spacing: .2px; 
 }
 
 .avatar {
     width: 20%;
     height: auto;
-    float: left;
-    margin-left: -10%;
-    margin-right: 3%;
     border: 2px solid black;
+    float: left;
 }
 
 /* Portfolio Section */
@@ -189,17 +186,24 @@ p {
 .portfolio-container {
     width: 80%;
     margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 .horiseon {
     text-align: center;
     margin: -1025px auto;
     height: 30%;
-    width: auto;    
+    width: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .horiseon img {
     border: 2px solid black;
+    margin-top: 1000px;
 }
 
 .horiseon img:hover {
@@ -207,6 +211,8 @@ p {
     transition: all 1s ease-in-out;
 }
 
+
+/* additional projects styling */
 .container {
     display: flex;
     flex-wrap: wrap;
@@ -218,10 +224,9 @@ p {
     width: 450px;
     height: 300px;
     margin: 15px;
-    margin-top: -725px;
+    margin-top: -625px;
     border: 2px solid black;
     object-fit: cover;
-
 }
 
 .container img:hover {
@@ -237,87 +242,6 @@ footer {
     text-align: center;
     margin-top: 400px;
 }
-
-/*  Media Queries  */
-
-/* Screen size smaller than 1350px */
-@media only screen and (max-width: 1355px) {
-    html {
-        font-size: 80%;
-    }
-}
-    
-/* Screen size smaller than 1200px */
-@media only screen and (max-width: 1200px) {
-    .hero-text
-{
-        margin-top: 100px;
-        top: 35px;
-        font-size: 1em;
-    }
-    .container img , .horiseon img{
-        width: auto;
-        height: auto;
-    }
-
-}
-/* Screen size smaller than 800px */
-@media only screen and (max-width: 800px) {
-    .hero-text
-{
-        margin-top: 100px;
-        top: 35px;
-        font-size: 1em;
-    }
-    .container img { 
-        width: auto;
-        height: 25%;
-    }
-    .horiseon img {
-        width: auto;
-        height: 75%;
-    }
-    html {
-        font-size: 70%;
-    }
-
-}
-
-/* Screen size smaler than 500px */
-@media only screen and (max-width: 550px) {
-    .hero-text
-    {
-    margin-top: 100px;
-    top: 90px;
-    font-size: 1em;
-}
-    .container img {
-        width: auto;
-        height: 15%;
-    }
-    .horiseon img {
-        width: auto;
-        height: 50%;
-    }
-    
-    html {
-        font-size: 60%;
-    }
-
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 

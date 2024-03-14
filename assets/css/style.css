@@ -7,7 +7,6 @@
 }
 
 /* HTML Styling */
-
 html {
     box-sizing: border-box;
     height: 100%;
@@ -23,6 +22,7 @@ body {
 html {
     scroll-behavior: smooth;
 }
+
 /* header */
 header {
     padding: 10px;
@@ -51,11 +51,9 @@ h1 {
     color: black;
     font-weight: bold;
     font-size: 3em;
-   
 }
- 
-/* Navbar / Links  */
 
+/* Navbar / Links  */
 .link {
     font-weight: bold;
     text-decoration: none;
@@ -64,9 +62,8 @@ h1 {
     padding: 0.5em;
     position: relative;
     
-  }
-  
-  .link::before {
+} 
+.link::before {
     content: "";
     position: absolute;
     width: 100%;
@@ -76,16 +73,15 @@ h1 {
     transform: scaleX(0);
     transition: all 0.6s ease;
     
-  }
-  
-  .link::before {
+}
+.link::before {
     bottom: 0;
     left: 0;
-  }
-  
-  .link:hover::before {
+}
+
+.link:hover::before {
     transform: scaleX(1);
-  }
+}
 
 
 /* Hero Image Styling */
@@ -181,15 +177,6 @@ p {
     border: 2px solid black;
 }
 
-.zachcar {
-    width: auto;
-    height: 45%;
-    float: right;
-    margin-top: -120px;
-    margin-right: -80px;
-    border: 2px solid black;
-}
-
 /* Portfolio Section */
 .portfolioheader {
     font-size: 2.5em;
@@ -242,23 +229,14 @@ p {
     transition: all 1s ease-in-out;
 }
 
- 
 /* Footer */
 footer {
-    padding: 10px;
-    text-align: center;
-    position: relative;
+    position: static;
     bottom: 0;
     width: 100%;
-    height: 50px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-top: 2px solid black;
-
+    text-align: center;
+    margin-top: 400px;
 }
-
-   
 
 /*  Media Queries  */
 
@@ -272,7 +250,7 @@ footer {
 /* Screen size smaller than 1200px */
 @media only screen and (max-width: 1200px) {
     .hero-text
-     {
+{
         margin-top: 100px;
         top: 35px;
         font-size: 1em;
@@ -280,14 +258,13 @@ footer {
     .container img , .horiseon img{
         width: auto;
         height: auto;
-       
     }
-  
+
 }
 /* Screen size smaller than 800px */
 @media only screen and (max-width: 800px) {
     .hero-text
-     {
+{
         margin-top: 100px;
         top: 35px;
         font-size: 1em;
@@ -295,7 +272,6 @@ footer {
     .container img { 
         width: auto;
         height: 25%;
-       
     }
     .horiseon img {
         width: auto;
@@ -304,20 +280,20 @@ footer {
     html {
         font-size: 70%;
     }
-  
+
 }
 
 /* Screen size smaler than 500px */
 @media only screen and (max-width: 550px) {
     .hero-text
     {
-       margin-top: 100px;
-       top: 90px;
-       font-size: 1em;
-   }
+    margin-top: 100px;
+    top: 90px;
+    font-size: 1em;
+}
     .container img {
-         width: auto;
-         height: 15%;
+        width: auto;
+        height: 15%;
     }
     .horiseon img {
         width: auto;
@@ -327,7 +303,7 @@ footer {
     html {
         font-size: 60%;
     }
- 
+
 }
 
 

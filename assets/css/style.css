@@ -171,6 +171,7 @@ p {
     height: auto;
     border: 2px solid black;
     float: left;
+    margin: 20px;
 }
 
 /* Portfolio Section */

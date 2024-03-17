@@ -162,8 +162,7 @@ a {
 }
 
 p {
-    max-width: 990px;
-    font-size: 1em;
+    max-width: 1000px;
     letter-spacing: .2px; 
 }
 
@@ -182,6 +181,7 @@ p {
     padding: 10px;
     margin: -475px auto;
 }
+
 
 .portfolio-container {
     width: 80%;

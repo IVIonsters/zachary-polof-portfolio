@@ -43,7 +43,6 @@ header nav ul {
     list-style: none;
 }
 
-
 h1 {
     color: black;
     font-weight: bold;
@@ -175,36 +174,50 @@ p {
 }
 
 /* Portfolio Section */
+
+.porfolio {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
 .portfolioheader {
     font-size: 2.5em;
     text-align: center;
     text-transform: uppercase;
     padding: 10px;
-    margin: -475px auto;
+    margin-top: -450px;
+    margin-bottom: auto;
 }
 
 
 .portfolio-container {
     width: 80%;
     margin: 0 auto;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
 }
+
+/* additional projects styling */
 
 .horiseon {
     text-align: center;
-    margin: -1025px auto;
-    height: 30%;
-    width: auto;
+    margin-top: -1000px;
     display: flex;
-    justify-content: center;
+    flex-direction: column;
     align-items: center;
 }
 
+.horiseon img:first-child {
+    width:  auto;
+    height: 40%;
+}
+
 .horiseon img {
-    border: 2px solid black;
-    margin-top: 1000px;
+    margin: 15px;
+    width: 450px;
+    height: 300px;
+    border: 2px solid black;;
 }
 
 .horiseon img:hover {
@@ -212,38 +225,49 @@ p {
     transition: all 1s ease-in-out;
 }
 
-
-/* additional projects styling */
 .container {
     display: flex;
     flex-wrap: wrap;
+    align-items: center;
     justify-content: center;
+    gap: 10px;
 }
 
 .container img {
-    display: flex;
-    width: 450px;
-    height: 300px;
-    margin: 15px;
-    margin-top: -625px;
-    border: 2px solid black;
-    object-fit: cover;
+    max-width: 450px;
+    min-width: 450px;
+    max-height: 300px;
+    min-height: 300px;
+    margin-top: -280px;
 }
 
-.container img:hover {
-    transform: scale(1.1);
-    transition: all 1s ease-in-out;
+/* Contact Me */
+.contactme {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.contactheader {
+    font-size: 2.5em;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 10px;
+    margin-top: -150px;
 }
 
 /* Footer */
-footer {
+
+
+/* footer {
     position: static;
     bottom: 0;
     width: 100%;
     text-align: center;
     margin-top: 400px;
 }
-
+ */
 
 
 

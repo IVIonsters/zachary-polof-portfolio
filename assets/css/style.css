@@ -140,11 +140,6 @@ main {
     border: 2px solid black;
     filter: drop-shadow(3px 3px 3px black );
 }
-.aboutme h3 {
-    font-size: 2.5em;
-    margin: 20px 0;
-    text-align: center;
-}
 
 main h3 {
     font-size: 2.5em;
@@ -196,14 +191,6 @@ figure {
     filter: drop-shadow(3px 3px 3px black );
 }
 
-figure h3 {
-    text-align: center;
-}
-
-figure p {
-    text-align: center;
-}
-
 section img {
     width: 50vh;
     height: 25vh;
@@ -237,6 +224,7 @@ footer img {
 
 /* Media Queries */
 
+/* Tablet Screens */
 
 @media screen and (min-width: 768px) and (max-width: 1210px) {
     .aboutme p {
@@ -282,6 +270,7 @@ footer img {
     
 }
 
+/* Mobile Device Screens */
 
 @media screen and (max-width: 767px) {
     .aboutme p {

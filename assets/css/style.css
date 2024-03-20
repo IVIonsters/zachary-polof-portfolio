@@ -32,7 +32,7 @@ p {
 /* header */
 header {
     padding: 20px;
-    background-color: skyblue;
+    background-color: #599fb7;
     text-transform: uppercase;
 }
 
@@ -89,7 +89,7 @@ header nav ul li {
 .hero-image {
     background-image: url(https://images.unsplash.com/photo-1534166755186-fa2d8a5b2b03?q=80&w=1494&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
     width: 100%;
-    height: 20vh;
+    height: 30vh;
     margin: 0 auto;
     background-position: center;
     background-repeat: no-repeat;
@@ -128,13 +128,13 @@ main {
 .aboutme {
     display: flex;
     justify-content: center;
-    flex-wrap: wrap;
+    flex-wrap: wrap;  
     margin: 10px;
 }
 
 .avatar {
-    height: 55vh;
-    width: 40vh;
+    height: 50vh;
+    width: 35vh;
 }
 .aboutme h3 {
     font-size: 2.5em;
@@ -149,10 +149,23 @@ main h3 {
 }
 
 .aboutme p {
-    margin: 75px 0 100px 20px;
+    margin: 10px;
+    padding: 20px;
+    border-style: dashed;
+    border-width: 3px;
+    border-radius: 15px;
+    text-align: center;
 }
 
 /* Portfolio Section */
+
+.portfoliomain {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 10px;
+}
+
 img {
     width: 25vw;
     height: auto;
@@ -161,16 +174,27 @@ img {
     filter: drop-shadow(3px 3px 3px black );
 }
 
+h4 {
+    text-align: center;
+    font-size: 1.25em;
+}
+
 figure {
     padding: 10px;
     border-style: dashed;
     border-width: 3px;
     border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
 
 .horiseon {
-    width: 750px;
-    height: 250px;
+    width: 100vh;
+    height: 40vh;
+    display: block;
+    margin: auto;
 }
 
 figure h3 {
@@ -182,17 +206,14 @@ figure p {
 }
 
 section img {
-    float: center;
-    width: 200px;
-    height: 150px;
-    position: relative;
-    right: 20px;
+    width: 50vh;
+    height: 25vh;
 }
 
 /* Footer-Contact Me */
 footer {
     padding: 20px;
-    background-color: skyblue;
+    background-color: #599fb7;
     display: flex;
     justify-content: center;
     align-items: center;

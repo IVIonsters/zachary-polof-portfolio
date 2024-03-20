@@ -154,10 +154,10 @@ main h3 {
 
 /* Portfolio Section */
 img {
-    width: 25%;
-    height: 25%;
+    width: 25vw;
+    height: auto;
     border: 2px solid black;
-    margin: 10px;
+    margin: 1vw;
     filter: drop-shadow(3px 3px 3px black );
 }
 
@@ -182,7 +182,7 @@ figure p {
 }
 
 section img {
-    float: left;
+    float: center;
     width: 200px;
     height: 150px;
     position: relative;

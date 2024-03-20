@@ -12,7 +12,7 @@
 
 ## Description
 
- INSERT DESCRIPTION OF PROJECT HERE
+Personalized portfolio of my current projects in various languages and designs! While I don't have many projects live currently, I am working on several and should have this updated shortly! Check back, I will update the portfolio regularly!
 
 ## Languages
 
@@ -21,22 +21,21 @@
 
 ## Features
 
-* **Title:** Page title added to show company brand and help identify site purpose with minimal engagment necessary.
-* **HTML Structure:** Refactored with class specific semantic elements to improve overall identification and readability.
+* **Contact:** Page has fully functional contact buttons to reach the devloper on various platforms.
+* **HTML & CSS Structure:** Structured in such a way that follows best practices for HTML and CSS styling.
 * **Accessibility:** Added Alt attributes to image tags for accessibilty and description.
-* **Header Tags** 
+* **Responsive** Website has been designed using the CSS flexbox system and is fully responsive to adjust for various screen sizes.
 * **Comments:** HTML and CSS sheets have been modified with comments to differentiate sections, styles, and readability.
 
 ## Usage
 
-* Note current code refactoring does not alter appearance of site,  rather, makes the documents more readible and structured. Website not structured for mobile devices currently.
+* Website is fully responsive in current configuration and mobile friendly.
 
-    * [deployed link](github pages link)
+* [zachary-polof-portfolio Live](https://ivionsters.github.io/zachary-polof-portfolio/)
 
-    * ![screenshot](path on github)
+* [zachary-polof-portfolio Github Repo](https://github.com/IVIonsters/zachary-polof-portfolio)
 
-    
-    
+* ![Web Page](/assets/images/webpagescreenshot.png)
 
 ## Credits
 

@@ -121,7 +121,6 @@ header nav ul li {
 h2 {
     font-size: 3.5em;
 }
- 
 
 /* About Me */
 main {
@@ -272,6 +271,14 @@ footer img {
         width: 40px;
         height: 40px;
     }
+    body {
+        background-color: #84b7cc;
+    }
+    header {
+        background-color: #768c9c;}
+    footer {
+        background-color: #768c9c;
+    }
     
 }
 
@@ -302,12 +309,21 @@ footer img {
         width: 20vh;
         height: 10vh;
     }
+
     footer h5 {
         font-size: 1em;
     }
     footer img {
         width: 30px;
         height: 30px;
+    }
+    body {
+        background-color: #cfd2d4;
+    }
+    header {
+        background-color: #285862;}
+    footer {
+        background-color: #285862;
     }
     
 }

@@ -10,6 +10,7 @@
 html {
     box-sizing: border-box;
     height: 100%;
+    scroll-behavior: smooth;
 }
 
 /* Body */
@@ -21,6 +22,8 @@ body {
 a {
     text-decoration: none;
     color: black;
+    margin-top: 20px;
+    font-size: 1.5em;
 }
 
 p {
@@ -34,6 +37,11 @@ header {
     padding: 20px;
     background-color: #599fb7;
     text-transform: uppercase;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
 }
 
 h1 {
@@ -44,8 +52,7 @@ h1 {
 
 header nav {
     float: right;
-    font-size: 1.25em;
-    margin-top: -35px;
+    font-size: 1.3em;
     padding: 0px;
 }
 
@@ -60,7 +67,7 @@ header nav ul li {
     text-decoration: none;
     color: black;
     font-size: 1.5em;
-    padding: 0.5em;
+    margin: 20px;
     position: relative;
     
 } 
@@ -114,11 +121,7 @@ header nav ul li {
 h2 {
     font-size: 3.5em;
 }
-
-a {
-    margin-top: 20px;
-    font-size: 1.5em;
-} */
+ 
 
 /* About Me */
 main {
@@ -135,6 +138,8 @@ main {
 .avatar {
     height: 50vh;
     width: 35vh;
+    border: 2px solid black;
+    filter: drop-shadow(3px 3px 3px black );
 }
 .aboutme h3 {
     font-size: 2.5em;
@@ -149,6 +154,7 @@ main h3 {
 }
 
 .aboutme p {
+    font-size: 1.3em;
     margin: 10px;
     padding: 20px;
     border-style: dashed;
@@ -164,14 +170,6 @@ main h3 {
     justify-content: center;
     flex-wrap: wrap;
     margin: 10px;
-}
-
-img {
-    width: 25vw;
-    height: auto;
-    border: 2px solid black;
-    margin: 1vw;
-    filter: drop-shadow(3px 3px 3px black );
 }
 
 h4 {
@@ -195,6 +193,8 @@ figure {
     height: 40vh;
     display: block;
     margin: auto;
+    border: 2px solid black;
+    filter: drop-shadow(3px 3px 3px black );
 }
 
 figure h3 {
@@ -208,6 +208,8 @@ figure p {
 section img {
     width: 50vh;
     height: 25vh;
+    border: 2px solid black;
+    filter: drop-shadow(3px 3px 3px black );
 }
 
 /* Footer-Contact Me */
@@ -232,4 +234,80 @@ footer img {
     height: 50px;
     margin: 10px;
     order: 2;
+}
+
+/* Media Queries */
+
+
+@media screen and (min-width: 768px) and (max-width: 1210px) {
+    .aboutme p {
+        font-size: 1.11em;
+    }
+    header nav {
+        font-size: 1em;
+        padding-left: 20px;
+    }
+    .hero-image {
+        height: 50vh;
+    }
+    .hero-text {
+        top: 20px;
+    }
+    .avatar {
+        height: 50vh;
+        width: 35vh;
+    }
+    .horiseon {
+        width: 50vh;
+        height: 20vh;
+    }
+    section img {
+        width: 30vh;
+        height: 15vh;
+    }
+    footer h5 {
+        font-size: 1.5em;
+    }
+    footer img {
+        width: 40px;
+        height: 40px;
+    }
+    
+}
+
+
+@media screen and (max-width: 767px) {
+    .aboutme p {
+        font-size: 1em;
+    }
+    header nav {
+        font-size: 1em;
+        padding-left: 20px;
+    }
+    .hero-image {
+        height: 50vh;
+    }
+    .hero-text {
+        top: 20px;
+    }
+    .avatar {
+        height: 50vh;
+        width: 35vh;
+    }
+    .horiseon {
+        width: 35vh;
+        height: 15vh;
+    }
+    section img {
+        width: 20vh;
+        height: 10vh;
+    }
+    footer h5 {
+        font-size: 1em;
+    }
+    footer img {
+        width: 30px;
+        height: 30px;
+    }
+    
 }
